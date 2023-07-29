@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    max-width: 340px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+#input-bar {
+    height: 30px;
+    min-width: 200px;
+    padding: 0 10px;
+}
+
+#task-list {
+    list-style-position: inside;
+    padding: 0px 12px;
+}
+
+#task-list>li {
+    padding: 6px;
+    font-size: 1.05em;
+    text-transform:capitalize;
+    border-bottom: 1px solid gray;
+    list-style-type: decimal-leading-zero
+}
+
+#task-list>li:last-child{
+    border-bottom: none;
+}
+
+.done{
+    text-decoration: line-through;
+}
